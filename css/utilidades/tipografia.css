@@ -1,13 +1,52 @@
-.texto-grande{
-  font-size: 64px;
+.font-1-xxl{
+  font-size: 4rem; /*era 64px, mudamos para rem (Relativo a raiz do site 16px), caso o usuario aumente, aumenta aqui também.  64 sao 4x em relação a 16. */
   line-height: 1.125;
-  font-family: 'Poppins';
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
 }
+/*sintaxe alternativa pra deixar o codigo mais curto-> font: PESO TAMANHO/LINEHEIGHT FAMILIA. 
+cOMO SERIA ACIMA?
+font: 600 4rem/1.125 "Poppins", sans-serif; 
+FAREMOS NOS OUTROS PRA ENTENDER.*/
 
-.text-medio{
-  font-size: 24px;
-  line-height: 1.5; 
-  font-family: 'Roboto';
-  font-weight: 400;
+.font-1-xl{
+  font: 600 2rem/1.25 "Poppins", sans-serif;
 }
+
+.font-1-l{
+  font: 500 1.5rem/1.1 "Poppins", sans-serif;
+}
+
+.font-1-s-b{
+  font: 600 1.125rem/1.7 "Poppins", sans-serif;
+}
+
+.font-1-m{
+  font: 400 1.25rem/1.2 "Poppins", sans-serif;
+}
+
+
+.font-2-xl{
+  font: 400 1.5rem/1.5 "Roboto", sans-serif;
+}
+
+.font-2-s-b{
+  font: 600 1.125rem/1.33 "Roboto", sans-serif;
+}
+
+.font-2-xl-b,
+.font-2-m{
+  font: 600 1.5rem/1.33 "Roboto", sans-serif;
+}
+
+.font-2-m{
+  font-weight: 500;
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+}
+ 
+
+.font-2-xs{
+  font: 400 1.125rem/1.33 "Roboto", sans-serif;
+}
+
