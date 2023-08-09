@@ -46,12 +46,6 @@
 
 }
 
-@media (max-width: 800px){
-  .introducao-conteudo a{
-    padding: 8px 16px;
-    font-size: 18px;
-  }
-}
 
 
 
@@ -61,4 +55,25 @@
     margin-bottom: 16px;
     padding-top: 20px;
   }
+
+  .introducao-conteudo a{
+    padding: 8px 16px;
+    font-size: 18px;
+  }
+
+
+  .introducao{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .introducao img{
+    max-width: 100%;
+    object-fit: cover;
+  }
+
+  .introducao-conteudo{
+   padding-bottom: 40px;
+  }
+  
 }
