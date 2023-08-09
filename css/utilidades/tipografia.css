@@ -50,3 +50,25 @@ FAREMOS NOS OUTROS PRA ENTENDER.*/
   font: 400 1.125rem/1.33 "Roboto", sans-serif;
 }
 
+
+
+@media (max-width: 1200px){
+  .font-1-xxl{
+    font-size: 48px;
+  }
+  .font-1-m{
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 600px){
+  .font-1-m{
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 800px){
+  .font-1-xxl{
+    font-size: 32px;
+  }
+}
